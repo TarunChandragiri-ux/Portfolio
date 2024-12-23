@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tarun-Chandragiri</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Square+Peg&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mx-auto px-20 py-2">
+        <!-- Navbar -->
+        <nav class="p-3 flex justify-between items-center font-roboto">
+            <a href="#" id="brand" class="flex gap-2 items-center">
+                <img class="w-[150px]" src="assets\Main logo.png" alt="logo">
+            </a>
+            <div id="nav-menu" class="hidden lg:flex gap-12  text-lg">
+                <a href="#pricing" class="font-medium hover:text-primary">Services</a>
+                <a href="#features" class="font-medium hover:text-primary">Experience</a>
+                <a href="#steps" class="font-medium hover:text-primary">Projects</a>
+                <a href="#steps" class="font-medium hover:text-primary">About me</a>
+
+
+
+            </div>
+            <div class="lg:flex hidden items-center gap-10 ">
+                <a href="#steps"><span class="font-light font-jost">Hyderbad, India </span><br> <span
+                        class="font-normal" id="time"></span></a>
+
+                <button
+                    class="flex gap-2 items-center border border-gray-400 px-4 py-2 rounded-lg hover:border-gray-900 ">
+                    <div class="w-2 h-2 bg-green-600 rounded-full border"></div>
+                    <span>Available for work</span>
+                </button>
+
+                <a href="#" class="font-medium hover:text-primary text-white bg-black rounded-lg px-3 py-1">Let's
+                    Talk</a>
+
+            </div>
+            <button class="p-2 lg:hidden" onclick="handleMenu()">
+                <i class="fa-solid fa-bars text-gray-600"></i>
+            </button>
+
+            <div id="nav-dialog" class=" hidden fixed z-10 bg-white inset-0 p-3 lg:hidden">
+                <div id="nav-bar" class="flex justify-between">
+                    <a href="#" id="brand" class="flex gap-2   items-center">
+                        <img class="object-cover max-w-12 max-h-12" src="assets\asset 0.png" alt="logo">
+                        <span class="text-lg font-medium font-display">ToDesktop</span>
+                    </a>
+                    <button class="p-2 lg:hidden" onclick="handleMenu()">
+                        <i class="fa-solid fa-xmark text-gray-600"></i>
+                    </button>
+                </div>
+                <div class="m-6">
+                    <a href="#pricing" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">
+                        pricing</a>
+                    <a href="#steps" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link"> Docs</a>
+                    <a href="#features"
+                        class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">features</a>
+
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <button class=" m-6 w-full flex gap-2 items-center px-4 py-4 rounded-lg hover:bg-gray-50">
+                    <span class="w-24 h-24 bg-green-400 rounded-full border border-yellow-600"></span>
+                    <span>Available for work</span>
+                </button>
+            </div>
+
+        </nav>
+        <!-- Hero Section -->
+        <div id="Hero_section" class="flex">
+            <div class="mt-16 flex-1">
+                <img src="assets\profile-pic-portfolio.jpg" alt="profile photo" class="rounded-full w-12 h-12">
+                <p class="py-6 text-5xl font-jost">Hello, <br> I'm Tarun Chandragiri!</p>
+            </div>
+            <div class="mt-16 flex-1 px-20">
+                <p class=" text-3xl font-jost"> A Web Designer & Developer, based in Hyderabad, India." </p>
+                <p class="py-2 text-gray-600">I’m passionate about crafting seamless digital experiences and creating
+                    visually engaging websites and social media content.</p>
+
+                <div class="flex gap-6 mt-8">
+                    <p class=" px-6 py-2 rounded-lg text-white bg-black">Contact me</p>
+                    <p class=" px-6 py-2 rounded-lg border border-black">Projects</p>
+
+                 
+                </div>
+
+            </div>
+            <div class="flex flex-col gap-3">
+                <a href="https://github.com/TarunChandragiri-ux"><i class="fa-brands fa-github text-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/c-tarun/"><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Script.js"></script>
+
+</html>
