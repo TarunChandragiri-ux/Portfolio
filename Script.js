@@ -24,3 +24,27 @@ function updateTime() {
   // Call updateTime immediately to display time without delay
   updateTime();
   
+
+
+  // scrolling transition when click on nav-links
+
+document.querySelectorAll('.scroll-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent the default anchor click behavior
+
+      // Close the menu if it's open
+      if (!navDialog.classList.contains('hidden')) {
+        handleMenu();
+    }
+
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+          window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth' // Enable smooth scrolling
+          });
+      }
+  });
+});

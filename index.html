@@ -20,8 +20,8 @@
                 <img class="w-[150px]" src="assets\Main logo.png" alt="logo">
             </a>
             <div id="nav-menu" class="hidden lg:flex gap-12  text-lg">
-                <a href="#pricing" class="font-medium hover:text-primary">Services</a>
-                <a href="#steps" class="font-medium hover:text-primary">Projects</a>
+                <a href="#services" class="font-medium hover:text-primary scroll-link">Services</a>
+                <a href="#projects" class="font-medium hover:text-primary scroll-link">Projects</a>
                 <!-- <a href="#features" class="font-medium hover:text-primary">Experience & Education</a> -->
                 <!-- <a href="#features" class="font-medium hover:text-primary">Blogs/a> -->
 
@@ -38,8 +38,8 @@
                     <span>Available for work</span>
                 </button>
 
-                <a href="#" class="font-medium hover:text-primary text-white bg-black rounded-lg px-3 py-1">Let's
-                    Talk</a>
+                <a href="mailto:tarunchandragiri14@gmail.com" class="font-medium hover:text-primary text-white bg-black rounded-lg px-3 py-1">Let's
+                    Connect</a>
 
             </div>
             <button class="p-2  lg:hidden" onclick="handleMenu()">
@@ -56,9 +56,9 @@
                     </button>
                 </div>
                 <div class="m-6">
-                    <a href="#pricing"
+                    <a href="#services"
                         class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">Services</a>
-                    <a href="#features"
+                    <a href="#projects"
                         class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">Projects</a>
                     <!-- <a href="#steps" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">Experience</a>
                     <a href="#features" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg scroll-link">About
@@ -87,48 +87,55 @@
                     visually engaging websites and social media content.</p>
 
                 <div class="flex gap-6 my-8">
-                    <p class=" px-6 py-2 rounded-lg text-white bg-black">Contact me</p>
-                    <p class=" px-6 py-2 rounded-lg border border-black">Projects</p>
-
+                    <a href="#footer" class=" px-6 py-2 rounded-lg text-white bg-black scroll-link">Contact me</a>
+                    <a href="#projects" class="scroll-link">
+                        <p class=" px-6 py-2 rounded-lg border border-black">Projects</p>
+                    </a>
 
                 </div>
 
             </div>
             <div class="hidden lg:flex  flex-col gap-4">
-                <a href="https://github.com/TarunChandragiri-ux"><i class="fa-brands fa-github text-3xl"></i></a>
-                <a href="https://www.linkedin.com/in/c-tarun/"><i class="fa-brands fa-linkedin text-3xl"></i></a>
+                <a href="https://github.com/TarunChandragiri-ux" target="_blank"><i
+                        class="fa-brands fa-github text-3xl"></i></a>
+                <a href="https://www.linkedin.com/in/c-tarun/" target="_blank"><i
+                        class="fa-brands fa-linkedin text-3xl"></i></a>
                 <a href=""></a>
             </div>
         </div>
         <!-- Services section -->
-        <div class="my-12">
+        <div id="services" class="my-12">
             <div class="px-4 lg:px-20">
                 <h1 class="text-2xl lg:text-5xl font-jost">Services</h1>
-        
+
                 <div class="flex flex-col lg:flex-row py-4 space-x-4">
                     <div class="flex-grow lg:flex-none min-w-[200px] lg:min-w-[300px] flex lg:justify-center">
                         <p class="text-xl lg:text-3xl">I can help you with</p>
                     </div>
-        
+
                     <!-- The section with the cards -->
                     <div class="flex flex-grow gap-4 flex-col lg:flex-row ">
                         <!-- UI Design Card -->
                         <div class="rounded-lg shadow-lg flex-grow bg-white">
                             <div class="flex gap-4 items-center">
                                 <i class="fa-brands fa-figma p-4 m-2 rounded-full bg-blue-400"></i>
-                                <p class="text-gray-500 p-4">We create intuitive visually appearing interfaces that enhance user experience and navigation, ensuring your app is both beautiful and functional across all the devices.</p>
+                                <p class="text-gray-500 p-4">We create intuitive visually appearing interfaces that
+                                    enhance user experience and navigation, ensuring your app is both beautiful and
+                                    functional across all the devices.</p>
                             </div>
                             <div class="flex justify-between p-4 font-medium text-xl">
                                 <p>UI Design</p>
                                 <p>01</p>
                             </div>
                         </div>
-        
+
                         <!-- Web Development Card -->
                         <div class="rounded-lg shadow-lg flex-grow bg-white">
                             <div class="flex gap-4 items-center">
                                 <i class="fa-solid fa-code p-4 m-2 rounded-full bg-blue-400"></i>
-                                <p class="text-gray-500 p-4">We create intuitive visually appearing interfaces that enhance user experience and navigation, ensuring your app is both beautiful and functional across all the devices.</p>
+                                <p class="text-gray-500 p-4">We create intuitive visually appearing interfaces that
+                                    enhance user experience and navigation, ensuring your app is both beautiful and
+                                    functional across all the devices.</p>
                             </div>
                             <div class="flex justify-between p-4 font-medium text-xl">
                                 <p>Web Development</p>
@@ -141,134 +148,216 @@
         </div>
 
         <!-- skill section -->
-        
-        
-        
-
-        <!-- Projects -->
-        <div class="bg-[#F5F5F0]">
-            <div class="px-4 lg:px-20 my-10">
-                <p class="text-3xl lg:text-5xl pt-10 font-jost ">Projects</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-6 py-8 ml-4 ">
-                    <!-- First Grid Box -->
-                    <div class="w-full rounded-lg shadow-lg bg-white">
-                        <div class="h-48 m-2 overflow-hidden rounded-xl  ">
-                            <img class=" w-full object-cover" src="assets\image.png" alt="">
-                        </div>
-                        <div class="p-4 flex flex-col gap-4">
-                            <h1 class="text-2xl font-medium">Trendix</h1>
-                            <h1 class="text-xl font-medium">E-commerce Website design</h1>
-                            <p>This project focuses on creating a modern and user-friendly platform for purchasing
-                                clothing.
-                                The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
-                                shopping experience to help customers easily explore and purchase the latest trends in
-                                fashion.</p>
-                            <div class="flex m-6 gap-4">
-                                <div>
-                                    <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
-                                </div>
-                                <div>
-                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
-                                </div>
-
-                            </div>
-                        </div>
+        <div class="p-8 lg:px-20 flex flex-col lg:flex-row justify-between font-jost bg-white">
+            <div>
+                <div class="flex flex-col items-center gap-2 p-6">
+                    <i class="fa-solid fa-code text-2xl p-2 rounded-full border border-gray-500"></i>
+                    <p class="text-xl font-medium">Software Engineer</p>
+                </div>
+                <li class="font-medium py-1 text-xl"> Skills</li>
+                <li class="line-clamp-none px-6">Proficient in JavaScript, HTML, and CSS</li>
+                <li class="line-clamp-none px-6">Skilled in modern front-end development with React.js and Tailwind CSS
+                </li>
+                <li class="line-clamp-none px-6">Back-end experience with Node.js, MongoDB, and Firebase</li>
+                <li class="line-clamp-none px-6">Expertise in Fetch API and performance optimization for web
+                    applications</li>
+                <li class="font-medium py-1 text-xl">Tools</li>
+                <li class="line-clamp-none px-6">Version control with Git and GitHub</li>
+                <li class="line-clamp-none px-6">Package management with npm and npx</li>
+                <li class="line-clamp-none px-6">Familiar with HubSpot CMS</li>
+                <li class="font-medium py-1 text-xl">Design & Deployment</li>
+                <li class="line-clamp-none px-6">Experienced in responsive design and cross-browser compatibility</li>
+                <li class="line-clamp-none px-6">Design tools: Figma, Canva</li>
+                <li class="line-clamp-none px-6">Deploys projects on GitHub</li>
+                <li class="font-medium py-1 text-xl">Other Skills</li>
+                <li class="line-clamp-none px-6">Knowledge of SEO principles and web accessibility standards</li>
+            </div>
+            <div>
+                <!-- Teammate section -->
+                <div>
+                    <div class="flex flex-col items-center gap-2 p-6">
+                        <i class="fa-solid fa-code text-2xl p-2 rounded-full border border-gray-500"></i>
+                        <p class="text-xl font-medium">Teammate</p>
                     </div>
 
-                    <!-- Second Grid Box -->
-                    <div class="w-full rounded-lg shadow-lg bg-white">
-                        <div class="h-48 m-2 overflow-hidden rounded-xl  ">
-                            <img class=" w-full object-cover" src="assets\image.png" alt="">
-                        </div>
-                        <div class="m-4 flex flex-col gap-4">
-                            <h1 class="text-2xl font-medium">Trendix</h1>
-                            <h1 class="text-xl font-medium">E-commerce Website design</h1>
-                            <p>This project focuses on creating a modern and user-friendly platform for purchasing
-                                clothing.
-                                The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
-                                shopping experience to help customers easily explore and purchase the latest trends in
-                                fashion.</p>
-                            <div class="flex m-6 gap-4">
-                                <div>
-                                    <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
-                                </div>
-                                <div>
-                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
-                                </div>
+                    <li class="line-clamp-none px-6">I value healthy corporate culture and work/life balance</li>
+                    <li class="line-clamp-none px-6">I manage my time well and always meet deadlines.</li>
+                    <li class="line-clamp-none px-6">Have good organization and cooperation skills</li>
+                    <li class="line-clamp-none px-6">My approach: Stay curious, work hard, and get things done.</li>
 
+                </div>
+
+                <!-- also section -->
+                <div class="flex flex-col items-center gap-2 p-6">
+                    <i class="fa-solid fa-ellipsis rounded-full  p-4 border border-gray-500"></i>
+                    <p class="text-xl font-medium">Also</p>
+                </div>
+
+                <li class="px-6">B.Tech in Electronics and Communication Engineering with expertise in
+                    embedded systems.</li>
+                <li class=" px-6">Proficient in microcontroller programming and IoT solution development.
+                </li>
+                <li class=" px-6">Experienced in hardware-software integration for practical
+                    applications.</li>
+                <li class=" px-6">Skilled in designing and troubleshooting innovative electronic systems.
+                </li>
+                <li class=" px-6">Fluent in English, Hindi, Telugu</li>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- Projects -->
+    <div id="projects" class="bg-[#F5F5F0]">
+        <div class="px-4 lg:px-20 lg:my-10">
+            <p class="text-3xl lg:text-5xl pt-10 font-jost ">Projects</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-6 py-8 ml-4 ">
+                <!-- First Grid Box -->
+                <div class="w-full rounded-lg shadow-lg bg-white">
+                    <div class="h-48 m-2 overflow-hidden rounded-xl  ">
+                        <img class=" w-full object-cover" src="assets\image.png" alt="">
+                    </div>
+                    <div class="p-4 flex flex-col gap-4">
+                        <h1 class="text-2xl font-medium">Trendix</h1>
+                        <h1 class="text-xl font-medium">E-commerce Website design</h1>
+                        <p>This project focuses on creating a modern and user-friendly platform for purchasing
+                            clothing.
+                            The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
+                            shopping experience to help customers easily explore and purchase the latest trends in
+                            fashion.</p>
+                        <div class="flex m-6 gap-4">
+                            <div>
+                                <a href="https://tarunchandragiri-ux.github.io/sample/" target="_blank">
+                                    <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
+                                </a>
                             </div>
+                            <div>
+                                <a href="https://github.com/TarunChandragiri-ux/sample" target="_blank">
+                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
+                </div>
 
-                    <!-- Third Grid Box -->
-                    <div class="w-full rounded-lg shadow-lg bg-white">
-                        <div class="h-48 m-2 overflow-hidden rounded-xl  ">
-                            <img class=" w-full object-cover" src="assets\image.png" alt="">
-                        </div>
-                        <div class="m-4 flex flex-col gap-4">
-                            <h1 class="text-2xl font-medium">Trendix</h1>
-                            <h1 class="text-xl font-medium">E-commerce Website design</h1>
-                            <p>This project focuses on creating a modern and user-friendly platform for purchasing
-                                clothing.
-                                The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
-                                shopping experience to help customers easily explore and purchase the latest trends in
-                                fashion.</p>
-                            <div class="flex m-6 gap-4">
-                                <div>
+                <!-- Second Grid Box -->
+                <div class="w-full rounded-lg shadow-lg bg-white">
+                    <div class="h-48 m-2 overflow-hidden rounded-xl  ">
+                        <img class=" w-full object-cover" src="assets\image.png" alt="">
+                    </div>
+                    <div class="p-4 flex flex-col gap-4">
+                        <h1 class="text-2xl font-medium">Trendix</h1>
+                        <h1 class="text-xl font-medium">E-commerce Website design</h1>
+                        <p>This project focuses on creating a modern and user-friendly platform for purchasing
+                            clothing.
+                            The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
+                            shopping experience to help customers easily explore and purchase the latest trends in
+                            fashion.</p>
+                        <div class="flex m-6 gap-4">
+                            <div>
+                                <a href="https://tarunchandragiri-ux.github.io/sample/" target="_blank">
                                     <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
-                                </div>
-                                <div>
-                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
-                                </div>
-
+                                </a>
                             </div>
+                            <div>
+                                <a href="https://github.com/TarunChandragiri-ux/sample" target="_blank">
+                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
+                </div>
 
-                    <!-- Fourth Grid Box -->
-                    <div class="w-full rounded-lg shadow-lg bg-white">
-                        <div class="h-48 m-2 overflow-hidden rounded-xl  ">
-                            <img class=" w-full object-cover" src="assets\image.png" alt="">
-                        </div>
-                        <div class="m-4 flex flex-col gap-4">
-                            <h1 class="text-2xl font-medium">Trendix</h1>
-                            <h1 class="text-xl font-medium">E-commerce Website design</h1>
-                            <p>This project focuses on creating a modern and user-friendly platform for purchasing
-                                clothing.
-                                The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
-                                shopping experience to help customers easily explore and purchase the latest trends in
-                                fashion.</p>
-                            <div class="flex m-6 gap-4">
-                                <div>
+                <!-- Third Grid Box -->
+                <div class="w-full rounded-lg shadow-lg bg-white">
+                    <div class="h-48 m-2 overflow-hidden rounded-xl  ">
+                        <img class=" w-full object-cover" src="assets\image.png" alt="">
+                    </div>
+                    <div class="p-4 flex flex-col gap-4">
+                        <h1 class="text-2xl font-medium">Trendix</h1>
+                        <h1 class="text-xl font-medium">E-commerce Website design</h1>
+                        <p>This project focuses on creating a modern and user-friendly platform for purchasing
+                            clothing.
+                            The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
+                            shopping experience to help customers easily explore and purchase the latest trends in
+                            fashion.</p>
+                        <div class="flex m-6 gap-4">
+                            <div>
+                                <a href="https://tarunchandragiri-ux.github.io/sample/" target="_blank">
                                     <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
-                                </div>
-                                <div>
-                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
-                                </div>
-
+                                </a>
                             </div>
+                            <div>
+                                <a href="https://github.com/TarunChandragiri-ux/sample" target="_blank">
+                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth Grid Box -->
+                <div class="w-full rounded-lg shadow-lg bg-white">
+                    <div class="h-48 m-2 overflow-hidden rounded-xl  ">
+                        <img class=" w-full object-cover" src="assets\image.png" alt="">
+                    </div>
+                    <div class="p-4 flex flex-col gap-4">
+                        <h1 class="text-2xl font-medium">Trendix</h1>
+                        <h1 class="text-xl font-medium">E-commerce Website design</h1>
+                        <p>This project focuses on creating a modern and user-friendly platform for purchasing
+                            clothing.
+                            The design emphasizes a stylish and clean layout, intuitive navigation, and a seamless
+                            shopping experience to help customers easily explore and purchase the latest trends in
+                            fashion.</p>
+                        <div class="flex m-6 gap-4">
+                            <div>
+                                <a href="https://tarunchandragiri-ux.github.io/sample/" target="_blank">
+                                    <h1 class="border border-black rounded-lg px-4 py-2">live demo</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/TarunChandragiri-ux/sample" target="_blank">
+                                    <h1 class="bg-black text-white rounded-lg px-4 py-2">More on GitHub</h1>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Footer -->
-        <div>
-            <div class="flex flex-col gap-6 md:flex-row md:items-center md:gap-40 font-medium p-4 md:px-20 bg-white">
-                <h1 class="text-2xl lg:text-5xl ">Contacts</h1>
-                <div class="text-sm lg:text-lg">
-                    <p>I VALUE COMPETENCE, TEAMWORK AND TIME MANAGEMENT OVER LOCATION.</p>
-                    <p> FEEL FREE TO REACH ME ON LINKEDIN</p>
-                </div>
-            </div>
-
-            <div class="bg-[#F5F5F0] flex gap-8 px-8 py-8 lg:px-40 ">
-                <a href="https://github.com/TarunChandragiri-ux"><i class="fa-brands fa-github  text-4xl"></i></a>
-                <a href="https://www.linkedin.com/in/c-tarun/"><i class="fa-brands fa-linkedin  text-4xl"></i></a>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="flex flex-col gap-2 md:flex-row md:items-center md:gap-40 font-medium p-4 md:px-20 bg-white">
+            <h1 class="text-2xl lg:text-5xl ">Contacts</h1>
+            <div class="text-sm lg:text-lg">
+                <p>I VALUE COMPETENCE, TEAMWORK AND TIME MANAGEMENT OVER LOCATION.</p>
+                <p> Feel free to contact me at <a class="text-blue-500"
+                        href="mailto:tarunchandragiri14@gmail.com">tarunchandragiri14@gmail.com</a></p>
             </div>
         </div>
+        <div class="bg-[#F5F5F0] px-8 py-8 lg:px-40 ">
+            <div class=" flex gap-8 ">
+                <a href="https://github.com/TarunChandragiri-ux" target="_blank"><i
+                        class="fa-brands fa-github  text-4xl"></i></a>
+                <a href="https://www.linkedin.com/in/c-tarun/" target="_blank"><i
+                        class="fa-brands fa-linkedin  text-4xl"></i></a>
+            </div>
+            <p class="py-5 text-gray-500">© Tarun Chandragiri </p>
+        </div>
+    </div>
 
 </body>
 <script src="Script.js"></script>
